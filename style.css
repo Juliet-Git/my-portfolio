@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  width: 100%;
+}
+
+ header {
+   background: black;
+   height: 10vh;
+   position: sticky;
+   top: 0;
+}
+
+.topnav {
+  color: white;
+  line-height: 10vh;
+}
+
+.topnav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 12px;
+  background: black;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: #1DA4F8;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+.topnav button{
+  padding: 10px;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.background {
+  height: 90vh;
+  background-image: url("images/jacob-kiesow-XakAFeeQZI0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.maintext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.maintext h1 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.maintext span {
+
+}
+
+.cta {
+  margin: 30px;
+}
+
+.cta button {
+  padding: 20px;
+}
+.cta a{
+  text-decoration: none;
+  color: white;
+}
+
+
+main {
+  margin: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.downnav {
+  padding: 5px;
+}
+
+.downnav ul {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.projects {
+ width: 100%;
+}
+
+.project {
+  max-width: 400px;
+  margin: 10px;
+}
+
+.project-top {
+  max-width: 400px;
+  max-height: 280px;
+}
+
+.project .project-top img{
+  max-width: 100%;
+  height: auto;
+}
+
+.project-bottom-left {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #1DA4F8;
+  position:relative;
+  z-index: -1;
+}
+
+.project-bottom-left i{
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.project-bottom-right {
+  float: left;
+  width: calc(100% - 50px);
+  background: black;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 13px;
+}
+
+.project .project-bottom-right h3{
+  color: white;
+}
+
+.project-bottom-right a{
+  color:white;
+}
+
+.skills {
+  width: 100%;
+}
+
+.hard-skills {
+  margin: 10px;
+}
+
+.soft-skills {
+  margin: 10px;
+}
+
+.container {
+  width: 100%;
+  background: #ddd;
+}
+
+.skills {
+  margin-bottom: 30px;
+}
+
+.skill-analisi {
+  width: 80%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-html {
+  width: 60%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-css {
+    width: 60%;
+    background-color: #1DA4F8;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+}
+
+.skill-seo {
+    width: 80%;
+    background-color: #1DA4F8;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+}
+
+.skill-copy {
+  width: 80%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-ads {
+  width: 50%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-excel {
+  width: 80%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-ux {
+  width: 50%;
+  background-color: #1DA4F8;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-precisione {
+  width: 70%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-creatività{
+  width: 90%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-proattività{
+  width: 80%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-problem {
+  width: 90%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-people {
+  width: 70%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-negoziazione {
+  width: 60%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-pianificazione {
+  width: 80%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.skill-leaderships{
+  width: 70%;
+  background-color: #8A3ABC;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  clear:left;
+}
+
+.profile {
+  margin: 25px;
+}
+
+.profile-top img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 5000px;
+  height: 200px;
+
+  border-radius: 50%;
+  background: #1DA4F8;
+}
+
+.profile-bottom {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.profile-bottom i{
+  padding: 20px;
+  color: black;
+}
+
+.profile-bottom i:hover {
+  color: #1DA4F8;
+  font-size: 20px;
+}
+
+.profile-text p{
+  text-align: center;
+}
+
+.profile-text a{
+  color: #8A3ABC
+}
+
+footer {
+background: black;
+clear:left;
+}
+
+.social {
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.social i {
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 902px) {
+  /* body {
+    background-color: purple;
+  } */
+  .project {
+    float: left;
+  }
+
+  .project-top {
+    max-width: 400px;
+    max-height: 260px;
+    margin-bottom: 10px;
+  }
+
+  .project-bottom {
+    height: 50px;
+  }
+
+  .big-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hard-skills {
+    flex: 40%;
+  }
+
+  .soft-skills {
+    flex: 40%;
+  }
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 900px) {
+  /* body {
+    background-color: blue;
+  } */
+  /* main {
+    height: 250vh;
+  } */
+  .project {
+    float: left;
+    max-width: 350px;
+  }
+
+  .project-bottom {
+    height: 50px;
+  }
+
+  .big-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hard-skills {
+    flex: 40%;
+  }
+
+  .soft-skills {
+    flex: 40%;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  /* body {
+    background-color: green;
+  } */
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .project-bottom {
+    height: 50px;
+  }
+
+  .soft-skills {
+    display: none;
+  }
+}
